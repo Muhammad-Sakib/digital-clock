@@ -1,0 +1,26 @@
+body{
+    background-color: #36485C;
+    padding-top: 100px;
+}
+.clock{
+    width: 80%;
+    margin: auto;
+}
+.time{
+    float: left;
+    width: 120px;
+    height: 120px;
+    color: orange;
+    background-color: #36485C;
+    border-radius: 15px;
+    box-shadow: 5px 5px 6px 0 rgba(0, 0, 0, 0.15),-4px -4px 8px 0 rgba(255, 255, 255, 0.1);
+    text-align: center;
+    margin: 11px;
+    -webkit-box-reflect : below 20px linear-gradient(transparent,#0008);
+}
+.pad{
+    float: left;
+    width: 40%;
+    margin-left: 40px;
+    
+}
