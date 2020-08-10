@@ -10,6 +10,10 @@ function DateAndTime(){
     if( hours <12){
         document.getElementById("session").innerHTML = "AM";
     }
+    else if(hours <13){
+        document.getElementById("session").innerHTML = "PM";
+        document.getElementById("hours").innerHTML = days.getHours();
+    }
     else{
         document.getElementById("session").innerHTML = "PM";
         document.getElementById("hours").innerHTML = days.getHours()-12;
