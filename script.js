@@ -7,7 +7,11 @@ function DateAndTime(){
     document.getElementById("minutes").innerHTML = days.getMinutes();
     document.getElementById("seconds").innerHTML = days.getSeconds();
     var hours = days.getHours();
-    if( hours <12){
+    if( hours <1){
+        document.getElementById("hours").innerHTML = 12;
+        document.getElementById("session").innerHTML = "AM";
+    }
+    else if( hours <12){
         document.getElementById("session").innerHTML = "AM";
     }
     else if(hours <13){
